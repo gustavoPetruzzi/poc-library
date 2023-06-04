@@ -1,0 +1,6 @@
+<div class="navbar">
+  <div (click)="onIconClicked()">
+    <ng-content select="[icon]" (click)="onIconClicked()"></ng-content>
+  </div>
+  <ng-content select="[app-title]" (click)="onTitleClicked()"></ng-content>
+</div>

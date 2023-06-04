@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  gap: 1rem;
+  color: #023047;
+  background-color: rgba(251, 133, 0, 0.2);
+  height: 62px;
+}
+
+.navbar img {
+  height: 62px;
+}
